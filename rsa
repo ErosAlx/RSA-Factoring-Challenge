@@ -2,9 +2,9 @@
 import sys
 
 
-def func():
+def fc():
     """
-    function func to search file to convert number and format n=p*q
+    function fc to search file to convert number and format n=p*q
     """
     try:
         revfile = sys.argv[1]
@@ -26,4 +26,5 @@ def func():
         pass
 
 
-func()
+# autostart
+fc()
