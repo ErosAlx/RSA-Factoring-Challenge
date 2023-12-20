@@ -18,10 +18,8 @@ def factorize(value):
     print(value, "<- value-aft")
     print()
 
-
 if len(argv) != 2:
     exit()
-
 
 try:
     with open(argv[1]) as file:
